@@ -1,0 +1,44 @@
+.main {
+  font-family: "Maven Pro", sans-serif;
+  font-size: 15px;
+  color: #812755; 
+  background-color: #fff;
+  text-align: center
+}
+.nav {
+    font-family: "Maven Pro", sans-serif;
+    color: #812755;
+    background-color: #fff;
+    text-align: center
+}
+.li {
+    font-family: "Maven Pro", sans-serif;
+    color: #812755;  
+    display: inline-block;
+    margin-bottom: 2rem
+}
+.footer {
+  font-family: "Maven Pro", sans-serif;
+  color: #812755; 
+  background-color: #fff;
+  margin-bottom: 2rem;
+  text-align: center
+}
+.a {
+  color: inherit
+}
+.contacto {
+  margin-bottom: 5px
+}
+.boton{
+  background-color: #fd7e14;
+  border-radius: 30px;
+  padding: 1rem;
+  text-decoration: none;
+  font-weight: 700;
+  color: #fff;
+}
+h1 {
+  font-weight: 800
+}
+
