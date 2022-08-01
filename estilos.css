@@ -1,20 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 body {
   margin: 0;
   padding: 0;
   line-height: 1.45;
 }
-.main {
+header { 
+  padding: 60px 0;
+  text-align: center;
+  }
+figure { 
+  margin: 0;
+  width: 100%;
+  display: flex;
+  
+}  
+main {
   font-family: "Maven Pro", sans-serif;
   font-size: 15px;
   color: #812755; 
   background-color: #fff;
   text-align: center
 }
-.nav {
-    font-family: "Maven Pro", sans-serif;
-    color: #812755;
+.navfijo {
+    font-family: "Maven Pro", sans-serif;    
     background-color: #fff;
-    text-align: center
+    text-align: center;
+    position: fixed;
+    height: 60px;
+    width: 100%;
+    top: 0;
+    padding-top: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+nav {
+  font-family: "Maven Pro", sans-serif;
+  color: #812755;
+  background-color: #fff;
+  text-align: center;
 }
 .li {
     font-family: "Maven Pro", sans-serif;
@@ -71,11 +100,6 @@ h2 {
   font-weight: 300;
   font-size: 24px;
   margin: 0 0 16px 0;
-}
-header { 
-
-padding: 80px 0;
-text-align: center;
 }
 
 section {
