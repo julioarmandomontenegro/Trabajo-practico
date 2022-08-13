@@ -23,7 +23,12 @@ main {
   font-size: 15px;
   color: #812755; 
   background-color: #fff;
-  text-align: center
+  text-align: center;
+  padding-top: 3rem;
+    padding-bottom: 3rem;
+    padding: 4rem;
+    display: flex;
+  
 }
 .navfijo {
     font-family: "Maven Pro", sans-serif;    
@@ -33,24 +38,36 @@ main {
     height: 60px;
     width: 100%;
     top: 0;
+    left: 0;
+    z-index: 100;
+    min-height: 70px;
+    align-items: center;
     padding-top: 5px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
-
+    justify-content: space-between;
+    padding: 0 2rem;
 }
+
 nav {
   font-family: "Maven Pro", sans-serif;
   color: #812755;
   background-color: #fff;
   text-align: center;
 }
-.li {
+li {
     font-family: "Maven Pro", sans-serif;
     color: #812755;  
     display: inline-block;
-    margin-bottom: 2rem
+    margin-bottom: 1rem;
+    list-style: none;    
 }
+header_figure {
+  height: 100%;
+  width: 100%;
+  object-fit: contain;
+ }
+  
 footer {
   font-family: "Maven Pro", sans-serif;
   color: #fff; 
@@ -59,6 +76,7 @@ footer {
   text-align: center;
   padding: 32px 0;
   font-size: 12px;
+  width: 100%
 }
 footer ul {
   margin: 0;
@@ -74,7 +92,7 @@ footer li a {
   text-decoration: none;
   color:#fff
 }
-.a {
+a {
   color: inherit
 }
 .contacto {
